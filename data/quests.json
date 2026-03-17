@@ -1012,6 +1012,10 @@
                     },
                     {
                         "Type": "EndQuest"
+                    },
+                    {
+                        "Type": "GuardianPet",
+                        "Id": 125
                     }
                 ]
             },
@@ -1036,6 +1040,10 @@
                     },
                     {
                         "Type": "EndQuest"
+                    },
+                    {
+                        "Type": "GuardianPet",
+                        "Id": 126
                     }
                 ]
             },
@@ -1060,6 +1068,10 @@
                     },
                     {
                         "Type": "EndQuest"
+                    },
+                    {
+                        "Type": "GuardianPet",
+                        "Id": 127
                     }
                 ]
             }
@@ -1087,6 +1099,10 @@
                 "Rewards": [
                     {
                         "Type": "StartMinigame"
+                    },
+                    {
+                        "Type": "Dream",
+                        "Id": 11
                     }
                 ]
             }
@@ -1114,6 +1130,10 @@
                 "Rewards": [
                     {
                         "Type": "StartMinigame"
+                    },
+                    {
+                        "Type": "Dream",
+                        "Id": 12
                     }
                 ]
             }
@@ -1141,6 +1161,10 @@
                 "Rewards": [
                     {
                         "Type": "StartMinigame"
+                    },
+                    {
+                        "Type": "Dream",
+                        "Id": 13
                     }
                 ]
             }
@@ -3458,7 +3482,7 @@
                 "Rewards": [
                     {
                         "Type": "Key",
-                        "Id": 7001
+                        "Id": 1
                     },
                     {
                         "Type": "StartQuest"
@@ -3708,7 +3732,7 @@
                         "Id": 0
                     }
                 ],
-                "Npc": 18,
+                "Npc": 16,
                 "Dialog": 182,
                 "Rewards": [
                     {
@@ -3729,7 +3753,7 @@
                         "Id": 1
                     }
                 ],
-                "Npc": 19,
+                "Npc": 18,
                 "Dialog": 183,
                 "Rewards": [
                     {
@@ -3750,7 +3774,7 @@
                         "Id": 2
                     }
                 ],
-                "Npc": 16,
+                "Npc": 19,
                 "Dialog": 184,
                 "Rewards": [
                     {
@@ -4943,6 +4967,12 @@
                 "Dialog": 531,
                 "Rewards": [
                     {
+                        "Type": "Item",
+                        "Male": 10132,
+                        "Female": 10132,
+                        "Count": 3
+                    },
+                    {
                         "Type": "StartQuest"
                     }
                 ]
@@ -4950,16 +4980,13 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Give [i10132] to [n29]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Give [i10131] to [n32]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Give [i10125] to [n23]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 10132,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -4967,46 +4994,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 28,
+                "Npc": 29,
                 "Dialog": 532,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 150
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 2,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 100
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 9981,
-                        "Male": 9981,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 0
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Give [i10132] to [n29]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 1
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Give [i10131] to [n32]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Give [i10125] to [n23]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 10132,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -5014,46 +5020,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 28,
+                "Npc": 32,
                 "Dialog": 533,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 150
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 2,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 100
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 9981,
-                        "Male": 9981,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 1
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Give [i10132] to [n29]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 2
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Give [i10131] to [n32]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Give [i10125] to [n23]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 10132,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -5061,46 +5046,24 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 28,
+                "Npc": 23,
                 "Dialog": 534,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 150
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 2,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 100
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 9981,
-                        "Male": 9981,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 2
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Give [i10132] to [n29]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Give [i10131] to [n32]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Give [i10125] to [n23]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1,
+                            2
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -6152,7 +6115,7 @@
                     },
                     {
                         "Type": "Key",
-                        "Id": 7002
+                        "Id": 2
                     }
                 ]
             },
@@ -7013,7 +6976,7 @@
                 "Rewards": [
                     {
                         "Type": "Key",
-                        "Id": 7003
+                        "Id": 3
                     },
                     {
                         "Type": "StartQuest"
@@ -7844,7 +7807,7 @@
                 "Rewards": [
                     {
                         "Type": "Key",
-                        "Id": 7004
+                        "Id": 4
                     },
                     {
                         "Type": "StartQuest"
@@ -11160,16 +11123,8 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n48]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n43]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n44]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
                         "Type": "Quest",
@@ -11177,40 +11132,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 45,
+                "Npc": 48,
                 "Dialog": 1672,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 985
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 3,
-                        "Amount": 50
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 250
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 0
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n48]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n43]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n44]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 1
                     },
                     {
                         "Type": "Quest",
@@ -11218,40 +11153,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 45,
+                "Npc": 43,
                 "Dialog": 1673,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 985
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 3,
-                        "Amount": 50
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 250
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 1
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n48]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n43]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n44]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 2
                     },
                     {
                         "Type": "Quest",
@@ -11259,40 +11174,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 45,
+                "Npc": 44,
                 "Dialog": 1674,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 985
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 3,
-                        "Amount": 50
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 250
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 2
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n48]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n43]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n44]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -11564,20 +11464,8 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n43]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n44]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n45]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Talk to [n46]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
                         "Type": "Quest",
@@ -11585,44 +11473,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 42,
+                "Npc": 43,
                 "Dialog": 1697,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 985
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 3,
-                        "Amount": 50
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 250
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 0
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n43]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n44]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n45]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Talk to [n46]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 1
                     },
                     {
                         "Type": "Quest",
@@ -11630,44 +11494,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 42,
+                "Npc": 44,
                 "Dialog": 1698,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 985
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 3,
-                        "Amount": 50
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 250
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 1
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n43]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n44]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n45]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Talk to [n46]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 2
                     },
                     {
                         "Type": "Quest",
@@ -11675,44 +11515,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 42,
+                "Npc": 45,
                 "Dialog": 1699,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 985
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 3,
-                        "Amount": 50
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 250
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 2
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n43]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n44]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n45]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Talk to [n46]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 3
                     },
                     {
                         "Type": "Quest",
@@ -11720,44 +11536,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 42,
+                "Npc": 46,
                 "Dialog": 1700,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 985
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 3,
-                        "Amount": 50
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 250
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 3
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n43]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n44]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n45]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Talk to [n46]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -12746,6 +12543,12 @@
                 "Dialog": 326,
                 "Rewards": [
                     {
+                        "Type": "Item",
+                        "Male": 525,
+                        "Female": 525,
+                        "Count": 4
+                    },
+                    {
                         "Type": "StartQuest"
                     }
                 ]
@@ -12753,20 +12556,13 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n64]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n70]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n74]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n72]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 525,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -12774,50 +12570,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 69,
+                "Npc": 64,
                 "Dialog": 327,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 2650
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 650
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 15804,
-                        "Male": 15804,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 0
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n64]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 1
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n70]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n74]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n72]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 525,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -12825,50 +12596,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 69,
+                "Npc": 70,
                 "Dialog": 328,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 2650
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 650
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 15804,
-                        "Male": 15804,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 1
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n64]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 2
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n70]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n74]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n72]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 525,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -12876,50 +12622,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 69,
+                "Npc": 74,
                 "Dialog": 329,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 2650
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 650
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 15804,
-                        "Male": 15804,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 2
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n64]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 3
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n70]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n74]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n72]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 525,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -12927,50 +12648,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 69,
+                "Npc": 72,
                 "Dialog": 330,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 2650
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 650
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 15804,
-                        "Male": 15804,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 3
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n64]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n70]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n74]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n72]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -13029,6 +12725,12 @@
                 "Dialog": 336,
                 "Rewards": [
                     {
+                        "Type": "Item",
+                        "Male": 525,
+                        "Female": 525,
+                        "Count": 6
+                    },
+                    {
                         "Type": "StartQuest"
                     }
                 ]
@@ -13036,28 +12738,13 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n49]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n41]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n37]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n36]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022Deliver [i525] to [n112]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022Deliver [i525] to [n104]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 525,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -13065,58 +12752,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 69,
+                "Npc": 49,
                 "Dialog": 337,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 3200
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 60
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 1500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 13509,
-                        "Male": 13016,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 0
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n49]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 1
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n41]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n37]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n36]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022Deliver [i525] to [n112]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022Deliver [i525] to [n104]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 525,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -13124,58 +12778,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 69,
+                "Npc": 41,
                 "Dialog": 338,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 3200
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 60
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 1500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 13509,
-                        "Male": 13016,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 1
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n49]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 2
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n41]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n37]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n36]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022Deliver [i525] to [n112]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022Deliver [i525] to [n104]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 525,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -13183,58 +12804,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 69,
+                "Npc": 37,
                 "Dialog": 339,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 3200
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 60
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 1500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 13509,
-                        "Male": 13016,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 2
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n49]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 3
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n41]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n37]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n36]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022Deliver [i525] to [n112]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022Deliver [i525] to [n104]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 525,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -13242,58 +12830,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 69,
+                "Npc": 36,
                 "Dialog": 340,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 3200
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 60
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 1500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 13509,
-                        "Male": 13016,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 3
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n49]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 4
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n41]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n37]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n36]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022Deliver [i525] to [n112]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022Deliver [i525] to [n104]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 525,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -13301,58 +12856,25 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 69,
+                "Npc": 112,
                 "Dialog": 341,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 3200
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 60
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 1500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 13509,
-                        "Male": 13016,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 4
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n49]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 5
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n41]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n37]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n36]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022Deliver [i525] to [n112]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022Deliver [i525] to [n104]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 525,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -13360,58 +12882,27 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 69,
+                "Npc": 104,
                 "Dialog": 342,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 3200
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 60
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 1500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 13509,
-                        "Male": 13016,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 5
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Deliver [i525] to [n49]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Deliver [i525] to [n41]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Deliver [i525] to [n37]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022Deliver [i525] to [n36]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022Deliver [i525] to [n112]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022Deliver [i525] to [n104]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -13486,7 +12977,7 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 69,
+                "Npc": 75,
                 "Dialog": 347,
                 "Rewards": [
                     {
@@ -13543,10 +13034,6 @@
             },
             {
                 "Requirements": [
-                    {
-                        "Type": "Idk",
-                        "Text": "\u0022Find and Talk to Little Twin Stars\u0022"
-                    },
                     {
                         "Type": "Quest",
                         "Id": 309,
@@ -14957,7 +14444,7 @@
                     },
                     {
                         "Type": "Key",
-                        "Id": 7011
+                        "Id": 11
                     }
                 ]
             },
@@ -16142,6 +15629,10 @@
         "Id": 345,
         "Name": "Cleaning the Contents",
         "Description": "All the things inside [n22]\u0027s parcel were smeared with gunk! It\u0027s because of those naughty [m36]. [n22] is extremely upset. Can you help him? Try to complete the mini game by helping him to clean up the parcel contents.",
+        "Minigame": {
+            "Id": 11,
+            "Score": 1
+        },
         "Sections": [
             {
                 "Requirements": [
@@ -16161,35 +15652,39 @@
                 "Rewards": [
                     {
                         "Type": "StartQuest"
+                    },
+                    {
+                        "Type": "StartMinigame"
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Quest",
-                        "Id": 345,
-                        "Flags": 1
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
                         "Type": "Quest",
-                        "Id": 344,
-                        "Flags": 4
+                        "Id": 345,
+                        "Flags": 2
                     }
                 ],
                 "Npc": 22,
                 "Dialog": 813,
                 "Rewards": [
                     {
-                        "Type": "StartQuest"
+                        "Type": "StartMinigame"
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Play the minigame\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -16300,14 +15795,21 @@
                 "Rewards": [
                     {
                         "Type": "StartQuest"
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 551,
+                        "Male": 551,
+                        "Count": 1
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "\u0022Take the [i551] to [p22] and give it to [n54]\u0022"
+                        "Type": "GiveItem",
+                        "Id": 551,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -16548,6 +16050,60 @@
                 "Rewards": [
                     {
                         "Type": "StartQuest"
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 225,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 234,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 223,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 229,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 227,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 353,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 73,
+                "Dialog": 842,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2340
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 4,
+                        "Amount": 50
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "EndQuest"
                     }
                 ]
             }
@@ -17083,12 +16639,8 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n66]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n77]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
                         "Type": "Quest",
@@ -17096,32 +16648,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 70,
+                "Npc": 66,
                 "Dialog": 882,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 1100
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 30
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 0
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n66]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n77]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 1
                     },
                     {
                         "Type": "Quest",
@@ -17129,32 +16669,23 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 70,
+                "Npc": 77,
                 "Dialog": 883,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 1100
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 4,
-                        "Amount": 30
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 1
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n66]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n77]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -17753,16 +17284,8 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n127]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n128]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n126]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
                         "Type": "Quest",
@@ -17770,46 +17293,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 129,
+                "Npc": 127,
                 "Dialog": 2527,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 3690
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 5,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 15330,
-                        "Male": 15330,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 0
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n127]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n128]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n126]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 1
                     },
                     {
                         "Type": "Quest",
@@ -17817,46 +17314,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 129,
+                "Npc": 128,
                 "Dialog": 2528,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 3690
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 5,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 15330,
-                        "Male": 15330,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 1
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n127]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n128]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n126]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 2
                     },
                     {
                         "Type": "Quest",
@@ -17864,46 +17335,24 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 129,
+                "Npc": 126,
                 "Dialog": 2529,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 3690
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 5,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 15330,
-                        "Male": 15330,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 2
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n127]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n128]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n126]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1,
+                            2
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -18912,14 +18361,25 @@
                 "Rewards": [
                     {
                         "Type": "StartQuest"
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 657,
+                        "Male": 657,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Key",
+                        "Id": 14
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "\u0022Give [n137] his order\u0022"
+                        "Type": "GiveItem",
+                        "Id": 657,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -19170,21 +18630,8 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n69]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n77]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n66]\u0022"
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 661,
-                        "Count": 1
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
                         "Type": "Quest",
@@ -19192,51 +18639,26 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 137,
+                "Npc": 69,
                 "Dialog": 2616,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 6520
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 5,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 2192,
-                        "Male": 2192,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 0
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n69]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0
+                        ]
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n77]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n66]\u0022"
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 661,
-                        "Count": 1
+                        "Type": "NotFlag",
+                        "Id": 1
                     },
                     {
                         "Type": "Quest",
@@ -19244,51 +18666,27 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 137,
+                "Npc": 77,
                 "Dialog": 2617,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 6520
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 5,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 2192,
-                        "Male": 2192,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 1
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n69]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1
+                        ]
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n77]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n66]\u0022"
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 661,
-                        "Count": 1
+                        "Type": "NotFlag",
+                        "Id": 2
                     },
                     {
                         "Type": "Quest",
@@ -19296,46 +18694,30 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 137,
+                "Npc": 66,
                 "Dialog": 2618,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 6520
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 5,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 500
+                        "Type": "Flag",
+                        "Id": 2
                     },
                     {
                         "Type": "Item",
-                        "Female": 2192,
-                        "Male": 2192,
+                        "Female": 661,
+                        "Male": 661,
                         "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n69]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Talk to [n77]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Talk to [n66]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1,
+                            2
+                        ]
                     },
                     {
                         "Type": "GiveItem",
@@ -19507,6 +18889,39 @@
                 "Rewards": [
                     {
                         "Type": "StartQuest"
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 662,
+                        "Male": 662,
+                        "Count": 10
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "ClearItem",
+                        "Id": 662,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 425,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 127,
+                "Dialog": 2626,
+                "Rewards": [
+                    {
+                        "Type": "EndQuest"
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 662,
+                        "Male": 662,
+                        "Count": 10
                     }
                 ]
             }
@@ -19810,8 +19225,8 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n138]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
                         "Type": "Quest",
@@ -19819,38 +19234,22 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 102,
+                "Npc": 138,
                 "Dialog": 2646,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 1845
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 5,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 500
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 17031,
-                        "Male": 17031,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 0
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Talk to [n138]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -20544,6 +19943,73 @@
                 "Rewards": [
                     {
                         "Type": "StartQuest"
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "NotFlag",
+                        "Id": 0
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 439,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 60,
+                "Dialog": 2696,
+                "Rewards": [
+                    {
+                        "Type": "Flag",
+                        "Id": 0
+                    },
+                    {
+                        "Type": "Item",
+                        "Male": 1845,
+                        "Female": 1845,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1845,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Flags",
+                        "Ids": [
+                            0
+                        ]
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 439,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 130,
+                "Dialog": 2697,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1045
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "EndQuest"
                     }
                 ]
             }
@@ -22237,7 +21703,34 @@
                 "Dialog": 2820,
                 "Rewards": [
                     {
+                        "Type": "Item",
+                        "Female": 670,
+                        "Male": 670,
+                        "Count": 1
+                    },
+                    {
                         "Type": "StartQuest"
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 670,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 464,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 132,
+                "Dialog": 2821,
+                "Rewards": [
+                    {
+                        "Type": "EndQuest"
                     }
                 ]
             }
@@ -22454,10 +21947,6 @@
             },
             {
                 "Requirements": [
-                    {
-                        "Type": "Idk",
-                        "Text": "\u0022Guess who took [n126]\u0027s stones, and talk to the prankster\u0022"
-                    },
                     {
                         "Type": "Quest",
                         "Id": 468,
@@ -28833,28 +28322,8 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022find [n343]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022find [n344]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022find [n345]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022find [n346]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022find [n347]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
                         "Type": "Quest",
@@ -28862,58 +28331,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 342,
+                "Npc": 343,
                 "Dialog": 6612,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 24195
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 8,
-                        "Amount": 100
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 600
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 10794,
-                        "Male": 10794,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 0
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022find [n343]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022find [n344]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022find [n345]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022find [n346]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022find [n347]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 1
                     },
                     {
                         "Type": "Quest",
@@ -28921,58 +28352,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 342,
+                "Npc": 344,
                 "Dialog": 6613,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 24195
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 8,
-                        "Amount": 100
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 600
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 10794,
-                        "Male": 10794,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 1
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022find [n343]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022find [n344]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022find [n345]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022find [n346]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022find [n347]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 2
                     },
                     {
                         "Type": "Quest",
@@ -28980,58 +28373,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 342,
+                "Npc": 345,
                 "Dialog": 6614,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 24195
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 8,
-                        "Amount": 100
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 600
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 10794,
-                        "Male": 10794,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 2
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022find [n343]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022find [n344]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022find [n345]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022find [n346]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022find [n347]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 3
                     },
                     {
                         "Type": "Quest",
@@ -29039,58 +28394,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 342,
+                "Npc": 346,
                 "Dialog": 6615,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 24195
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 8,
-                        "Amount": 100
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 600
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 10794,
-                        "Male": 10794,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 4
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022find [n343]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022find [n344]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022find [n345]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022find [n346]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022find [n347]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 4
                     },
                     {
                         "Type": "Quest",
@@ -29098,58 +28415,20 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 342,
+                "Npc": 347,
                 "Dialog": 6616,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 24195
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 8,
-                        "Amount": 100
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 600
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 10794,
-                        "Male": 10794,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 4
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022find [n343]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022find [n344]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022find [n345]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022find [n346]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022find [n347]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                        "Type": "NotFlag",
+                        "Id": 5
                     },
                     {
                         "Type": "Quest",
@@ -29157,58 +28436,27 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 342,
+                "Npc": 348,
                 "Dialog": 6617,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 24195
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 8,
-                        "Amount": 100
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 600
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 10794,
-                        "Male": 10794,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 5
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022find [n343]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022find [n344]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022find [n345]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 3 \u0022find [n346]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 4 \u0022find [n347]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -29382,6 +28630,10 @@
                 "Rewards": [
                     {
                         "Type": "StartQuest"
+                    },
+                    {
+                        "Type": "Tokens",
+                        "Amount": 5
                     }
                 ]
             },
@@ -29390,6 +28642,12 @@
                     {
                         "Type": "Idk",
                         "Text": "qflag 0 \u0022Play the Capsule Machine\u0022"
+                    },
+                    {
+                        "Type": "Flags",
+                        "Ids": [
+                            0
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -29439,6 +28697,10 @@
                 "Rewards": [
                     {
                         "Type": "StartQuest"
+                    },
+                    {
+                        "Type": "Tokens",
+                        "Amount": 10
                     }
                 ]
             },
@@ -29447,6 +28709,12 @@
                     {
                         "Type": "Idk",
                         "Text": "qflag 0 \u0022Play the UFO Catcher\u0022"
+                    },
+                    {
+                        "Type": "Flags",
+                        "Ids": [
+                            0
+                        ]
                     },
                     {
                         "Type": "Quest",
