@@ -20270,6 +20270,105 @@
         ]
     },
     {
+        "Id": 769,
+        "Name": "Happy Builder",
+        "Description": "The [n225] needs your hand with house-building. Go and give it a shot!",
+        "Minigame": {
+            "Id": 7,
+            "Score": 1
+        },
+        "Sections": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 769,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 755,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 225,
+                "Dialog": 3460,
+                "Rewards": [
+                    {
+                        "Type": "StartQuest"
+                    },
+                    {
+                        "Type": "StartMinigame"
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "NotFlag",
+                        "Id": 0
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 769,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 225,
+                "Dialog": 3462,
+                "Rewards": [
+                    {
+                        "Type": "StartMinigame"
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Flags",
+                        "Ids": [
+                            0
+                        ]
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 769,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 225,
+                "Dialog": 3461,
+                "Rewards": [
+                    {
+                        "Type": "Item",
+                        "Female": 10204,
+                        "Male": 10204,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "EndQuest"
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 769,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 225,
+                "Dialog": 3462,
+                "Rewards": [
+                    {
+                        "Type": "StartMinigame"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "Id": 770,
         "Name": "Back to You",
         "Description": "[n211] wants to return the favor to [n221] by laying out another trail of [i10292]. Collect each one and follow the trail!",
@@ -20351,7 +20450,7 @@
                         "Flags": 4
                     }
                 ],
-                "Npc": 211,
+                "Npc": 215,
                 "Dialog": 3577,
                 "Rewards": [
                     {

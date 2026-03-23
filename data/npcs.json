@@ -3465,7 +3465,7 @@
         "X": 6523,
         "Y": 5184,
         "Rotation": 4,
-        "Action1": 0,
+        "Action1": 1,
         "Action2": 0,
         "Action3": 0,
         "Action4": 0
@@ -3478,7 +3478,7 @@
         "X": 4172,
         "Y": 3015,
         "Rotation": 6,
-        "Action1": 0,
+        "Action1": 1,
         "Action2": 0,
         "Action3": 0,
         "Action4": 0
@@ -3855,7 +3855,7 @@
         "X": 1186,
         "Y": 4473,
         "Rotation": 4,
-        "Action1": 0,
+        "Action1": 1,
         "Action2": 0,
         "Action3": 0,
         "Action4": 0
@@ -3868,7 +3868,7 @@
         "X": 1266,
         "Y": 1703,
         "Rotation": 4,
-        "Action1": 0,
+        "Action1": 1,
         "Action2": 0,
         "Action3": 0,
         "Action4": 0
@@ -3881,7 +3881,7 @@
         "X": 5992,
         "Y": 1545,
         "Rotation": 6,
-        "Action1": 0,
+        "Action1": 1,
         "Action2": 0,
         "Action3": 0,
         "Action4": 0
