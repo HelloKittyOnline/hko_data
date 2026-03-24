@@ -838,7 +838,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Remind  [n16]"
                     }
                 ]
             },
@@ -859,7 +860,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Remind  [n18]"
                     }
                 ]
             },
@@ -880,7 +882,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Remind  [n19]"
                     }
                 ]
             },
@@ -1949,7 +1952,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Give [i10132] to [n29]"
                     }
                 ]
             },
@@ -1975,7 +1979,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Give [i10131] to [n32]"
                     }
                 ]
             },
@@ -2001,7 +2006,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Give [i10125] to [n23]"
                     }
                 ]
             },
@@ -2266,7 +2272,8 @@
                     },
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Collect [i578]"
                     }
                 ]
             },
@@ -2293,7 +2300,8 @@
                     },
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Collect [i579]"
                     }
                 ]
             },
@@ -2320,7 +2328,8 @@
                     },
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Collect [i580]"
                     }
                 ]
             },
@@ -2347,7 +2356,8 @@
                     },
                     {
                         "Type": "Flag",
-                        "Id": 3
+                        "Id": 3,
+                        "Desc": "Collect [i581]"
                     }
                 ]
             },
@@ -2654,7 +2664,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Give invitation to [n30]"
                     }
                 ]
             },
@@ -2675,7 +2686,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Give invitation to [n32]"
                     }
                 ]
             },
@@ -2696,7 +2708,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Give invitation to [n20]"
                     }
                 ]
             },
@@ -2717,7 +2730,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 3
+                        "Id": 3,
+                        "Desc": "Give invitation to [n16]"
                     }
                 ]
             },
@@ -2738,7 +2752,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 4
+                        "Id": 4,
+                        "Desc": "Give invitation to [n21]"
                     }
                 ]
             },
@@ -5919,7 +5934,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Talk to [n85]"
                     }
                 ]
             },
@@ -5940,7 +5956,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Talk to [n86]"
                     }
                 ]
             },
@@ -5961,7 +5978,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Talk to [n89]"
                     }
                 ]
             },
@@ -5982,7 +6000,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 3
+                        "Id": 3,
+                        "Desc": "Talk to [n92]"
                     }
                 ]
             },
@@ -6003,7 +6022,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 4
+                        "Id": 4,
+                        "Desc": "Talk to [n88]"
                     }
                 ]
             },
@@ -6362,7 +6382,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Talk to [n48]"
                     }
                 ]
             },
@@ -6383,7 +6404,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Talk to [n43]"
                     }
                 ]
             },
@@ -6404,7 +6426,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Talk to [n44]"
                     }
                 ]
             },
@@ -6703,7 +6726,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Talk to [n43]"
                     }
                 ]
             },
@@ -6724,7 +6748,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Talk to [n44]"
                     }
                 ]
             },
@@ -6745,7 +6770,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Talk to [n45]"
                     }
                 ]
             },
@@ -6766,7 +6792,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 3
+                        "Id": 3,
+                        "Desc": "Talk to [n46]"
                     }
                 ]
             },
@@ -7800,7 +7827,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Deliver [i525] to [n64]"
                     }
                 ]
             },
@@ -7826,7 +7854,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Deliver [i525] to [n70]"
                     }
                 ]
             },
@@ -7852,7 +7881,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Deliver [i525] to [n74]"
                     }
                 ]
             },
@@ -7878,7 +7908,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 3
+                        "Id": 3,
+                        "Desc": "Deliver [i525] to [n72]"
                     }
                 ]
             },
@@ -7982,7 +8013,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Deliver [i525] to [n49]"
                     }
                 ]
             },
@@ -8008,7 +8040,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Deliver [i525] to [n41]"
                     }
                 ]
             },
@@ -8034,7 +8067,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Deliver [i525] to [n37]"
                     }
                 ]
             },
@@ -8060,7 +8094,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 3
+                        "Id": 3,
+                        "Desc": "Deliver [i525] to [n36]"
                     }
                 ]
             },
@@ -8086,7 +8121,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 4
+                        "Id": 4,
+                        "Desc": "Deliver [i525] to [n112]"
                     }
                 ]
             },
@@ -8112,7 +8148,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 5
+                        "Id": 5,
+                        "Desc": "Deliver [i525] to [n104]"
                     }
                 ]
             },
@@ -9407,7 +9444,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Deliver [i1725] to [n72]"
                     }
                 ]
             },
@@ -9433,7 +9471,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Deliver [i1725] to [n69]"
                     }
                 ]
             },
@@ -9459,7 +9498,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Deliver [i1725] to [n71]"
                     }
                 ]
             },
@@ -9485,7 +9525,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 3
+                        "Id": 3,
+                        "Desc": "Deliver [i1725] to [n73]"
                     }
                 ]
             },
@@ -9511,7 +9552,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 4
+                        "Id": 4,
+                        "Desc": "Deliver [i1725] to [n74]"
                     }
                 ]
             },
@@ -9537,7 +9579,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 5
+                        "Id": 5,
+                        "Desc": "Deliver [i1725] to [n64]"
                     }
                 ]
             },
@@ -9563,7 +9606,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 6
+                        "Id": 6,
+                        "Desc": "Deliver [i1725] to [n67]"
                     }
                 ]
             },
@@ -9589,7 +9633,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 7
+                        "Id": 7,
+                        "Desc": "Deliver [i1725] to [n68]"
                     }
                 ]
             },
@@ -11878,7 +11923,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Talk to [n66]"
                     }
                 ]
             },
@@ -11899,7 +11945,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Talk to [n77]"
                     }
                 ]
             },
@@ -12523,7 +12570,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Talk to [n127]"
                     }
                 ]
             },
@@ -12544,7 +12592,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Talk to [n128]"
                     }
                 ]
             },
@@ -12565,7 +12614,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Talk to [n126]"
                     }
                 ]
             },
@@ -13869,7 +13919,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Talk to [n69]"
                     }
                 ]
             },
@@ -13896,7 +13947,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Talk to [n77]"
                     }
                 ]
             },
@@ -13924,7 +13976,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Talk to [n66]"
                     },
                     {
                         "Type": "Item",
@@ -14464,7 +14517,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Talk to [n138]"
                     }
                 ]
             },
@@ -18905,7 +18959,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Find [n219]"
                     },
                     {
                         "Type": "Item",
@@ -20093,7 +20148,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Find [n286]"
                     }
                 ]
             },
@@ -20114,7 +20170,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Find [n287]"
                     }
                 ]
             },
@@ -20135,7 +20192,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Find [n288]"
                     }
                 ]
             },
@@ -21730,7 +21788,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Give [i1832] to [n29]"
                     }
                 ]
             },
@@ -21756,7 +21815,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "Give [i1832] to [n31]"
                     }
                 ]
             },
@@ -21782,7 +21842,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "Give [i1832] to [n32]"
                     }
                 ]
             },
@@ -21808,7 +21869,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 3
+                        "Id": 3,
+                        "Desc": "Give [i1832] to [n135]"
                     }
                 ]
             },
@@ -21834,7 +21896,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 4
+                        "Id": 4,
+                        "Desc": "Give [i1832] to [n28]"
                     }
                 ]
             },
@@ -21860,7 +21923,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 5
+                        "Id": 5,
+                        "Desc": "Give [i1832] to [n30]"
                     }
                 ]
             },
@@ -21886,7 +21950,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 6
+                        "Id": 6,
+                        "Desc": "Give [i1832] to [n23]"
                     }
                 ]
             },
@@ -21912,7 +21977,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 7
+                        "Id": 7,
+                        "Desc": "Give [i1832] to [n39]"
                     }
                 ]
             },
@@ -23230,7 +23296,8 @@
                     },
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "Go to [n39] and pick up the items"
                     }
                 ]
             },
@@ -26002,7 +26069,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 0
+                        "Id": 0,
+                        "Desc": "find [n343]"
                     }
                 ]
             },
@@ -26023,7 +26091,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 1
+                        "Id": 1,
+                        "Desc": "find [n344]"
                     }
                 ]
             },
@@ -26044,7 +26113,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 2
+                        "Id": 2,
+                        "Desc": "find [n345]"
                     }
                 ]
             },
@@ -26065,7 +26135,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 4
+                        "Id": 4,
+                        "Desc": "find [n346]"
                     }
                 ]
             },
@@ -26086,7 +26157,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 4
+                        "Id": 4,
+                        "Desc": "find [n347]"
                     }
                 ]
             },
@@ -26107,7 +26179,8 @@
                 "Rewards": [
                     {
                         "Type": "Flag",
-                        "Id": 5
+                        "Id": 5,
+                        "Desc": "find [n348]"
                     }
                 ]
             },
